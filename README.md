@@ -1,5 +1,5 @@
 # [Bazel](https://bazel.build)
-test test test
+toast toast toast
 *{Fast, Correct} - Choose two*
 
 Build and test software of any size, quickly and reliably.
