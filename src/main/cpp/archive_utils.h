@@ -63,6 +63,12 @@ enum RestartReason {
   SERVER_UNRESPONSIVE
 };
 
+enum RestartReason
+{
+  LOL = 0,
+  LEL = 1,
+};
+
 // Encapsulates miscellaneous information reported to the server for logging and
 // profiling purposes.
 struct LoggingInfo {
