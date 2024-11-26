@@ -22,7 +22,7 @@ import unittest
 
 from src.test.py.bazel import test_base
 
-failure_flag = False
+failure_flag = True
 
 class MockPythonLines(object):
 
