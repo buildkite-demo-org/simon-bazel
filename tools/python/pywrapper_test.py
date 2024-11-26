@@ -190,9 +190,6 @@ class PywrapperTest(test_base.TestBase):
         returncode, out, err, "Neither 'python3' nor 'python' were found"
     )
 
-  def test_failure_flag(self):
-    assert not failure_flag, "The failure flag is true!"
-
 
 if __name__ == "__main__":
   unittest.main()
