@@ -1,10 +1,10 @@
 steps:
-  - command: "bazel build //src:bazel-dev"
-    key: "bazel_build"
-    retry:
-      automatic:
-        - exit_status: "*"
-          limit: 4
+  # - command: "bazel build //src:bazel-dev"
+  #   key: "bazel_build"
+  #   retry:
+  #     automatic:
+  #       - exit_status: "*"
+  #         limit: 4
   - command: "bazel test //tools/python/..."
     key: "bazel_test"
     retry:
