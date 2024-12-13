@@ -1,4 +1,4 @@
-Test 1
+# MERGE CONFLICT
 
 # [Bazel](https://bazel.build)
 
