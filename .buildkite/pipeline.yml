@@ -5,7 +5,7 @@ steps:
   #     automatic:
   #       - exit_status: "*"
   #         limit: 4
-  - command: "bazel --check_direct_dependencies=off test //tools/python/..."
+  - command: "bazel test --check_direct_dependencies=off //tools/python/..."
     key: "bazel_test"
     retry:
       automatic:
